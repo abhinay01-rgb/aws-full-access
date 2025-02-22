@@ -6,7 +6,7 @@ scaling:
   enabled: true
 
 model:
-  type: "random_forest"  # Choose: logistic_regression, random_forest, svm
+  type: "logistic_regression"  # Choose: logistic_regression, random_forest, svm
   n_estimators: 100
   random_state: 2
   kernel: "rbf"  # Only used for SVM
